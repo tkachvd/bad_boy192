@@ -10,6 +10,7 @@ int main()
   while ((scanf("%d", &s1[i])) != EOF) {
     i++;
   }
+  printf("\n");
   printf("Введенный массив:\n");
   for (int j = 0; j < i; j++) {
     printf("%d: ", j + 1);
@@ -27,6 +28,7 @@ int main()
     }
     s1[j] = eq;
   }
+  printf("\n");
   if (count != 0) {
     printf("Вы неправильно ввели двоичные числа\n");
   }
