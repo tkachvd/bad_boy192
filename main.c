@@ -10,7 +10,7 @@ int main()
   while ((scanf("%d", &s1[i])) != EOF) {
     i++;
   }
-  printf("Введенный массив\n");
+  printf("Введенный массив:\n");
   for (int j = 0; j < i; j++) {
     printf("%d: ", j + 1);
     printf("%d\n", s1[j]);
@@ -43,7 +43,7 @@ int main()
       s2[j] = summ;
       summ = 0;
     }
-    printf("Полученный массив\n");
+    printf("Полученный массив:\n");
     for (int j = 0; j < i; j++) {
       printf("%d: ", j + 1);
       printf("%d\n", s2[j]);
