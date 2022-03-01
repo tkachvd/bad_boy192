@@ -3,7 +3,7 @@
 
 int main()
 {
-  int s1[1001], s2[1001], n, i, ost, summ, degree, count;
+  int s1[1001], s2[1001], i, ost, summ, degree, count;
   count = 0;
   i = 0;
   while ((scanf("%d", &s1[i])) != EOF) {
