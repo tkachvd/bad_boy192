@@ -14,8 +14,6 @@ int main()
   for (int j = 0; j < i; j++) {
     printf("%d: ", j + 1);
     printf("%d\n", s1[j]);
-  }
-  for (int j = 0; j < i; j++) {
     eq = s1[j];
     degree = 0;
     while (s1[j] != 0) {
