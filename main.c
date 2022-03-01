@@ -14,7 +14,10 @@ int main()
   for (int j = 0; j < i; j++) {
     printf("%d: ", j + 1);
     printf("%d\n", s1[j]);
+  }
+  for (int j = 0; j < i; j++) {
     eq = s1[j];
+    degree = 0;
     while (s1[j] != 0) {
       ost = s1[j] % 10;
       s1[j] = s1[j] / 10;
@@ -23,11 +26,10 @@ int main()
       if (ost != 0 && ost != 1) {
         count++;
       }
+    }
     s2[j] = summ;
     summ = 0;
-    }
     s1[j] = eq;
-    degree = 0;
   }
   printf("\n");
   if (count != 0) {
