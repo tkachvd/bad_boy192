@@ -3,7 +3,7 @@
 
 int main()
 {
-  int s1[1001], s2[1001], n, i, ost, summ, degree, count, eq;
+  int s1[1001], s2[1001], n, i, ost, summ, degree, count;
   count = 0;
   i = 0;
   while ((scanf("%d", &s1[i])) != EOF) {
@@ -14,7 +14,6 @@ int main()
   for (int j = 0; j < i; j++) {
     printf("%d: ", j + 1);
     printf("%d\n", s1[j]);
-    eq = s1[j];
     degree = 0;
     while (s1[j] != 0) {
       ost = s1[j] % 10;
@@ -27,7 +26,6 @@ int main()
     }
     s2[j] = summ;
     summ = 0;
-    s1[j] = eq;
   }
   printf("\n");
   if (count != 0) {
