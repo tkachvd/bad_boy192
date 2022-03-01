@@ -27,7 +27,6 @@ int main()
     summ = 0;
     }
     s1[j] = eq;
-    ost = 0;
     degree = 0;
   }
   printf("\n");
